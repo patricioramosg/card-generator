@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(103, 172, 0);
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    background-color: white;
+    width: 500px;
+    height: 800px ;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    font-size: 100px;
+    padding: none;
+    margin: none;
+    font-size: 150px;
+
+}
+
+
+.arriba{
+    margin-left: 20px;
+}
+
+.num{
+    width: auto;
+    height: 600px;
+    font-size: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.abajo{
+    justify-content: end;
+    text-align: end;
+    margin-right: 20px;
+    transform: rotate(180deg);
+    transform-origin: 90%;
+
+
+}
